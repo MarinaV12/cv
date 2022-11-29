@@ -1,0 +1,69 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    max-width: 920px;
+    background: linear-gradient(135deg, #b4e9d9, #e3e6dd);
+    font-size: 24px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.main section {
+    border-bottom: solid 2px rgb(95, 95, 94);
+}
+
+.main section:last-of-type{
+    border: none;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.telegram, .whatsapp, .viber {
+    background-image: url(../img/icons_mess.jpg);
+    background-repeat: no-repeat;
+    background-size: 300% auto;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.telegram {
+    background-position: -48px center;
+}
+
+.whatsapp {
+    background-position: -98px center;
+}
+
+.viber {
+    background-position: left center;
+}
+
+.main dt {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.lang-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main table {
+    background-color: #b4e9d9;
+    border: 1px solid black;
+    }
+
+.main table th, .main table td {
+    border: 1px solid black;
+    padding: 20px;
+}
